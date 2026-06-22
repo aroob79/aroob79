@@ -41,7 +41,6 @@ I am a passionate **Machine Learning & Computer Vision Engineer** specializing i
 ### 📦 Infrastructure & Deployment
 <p align="left">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
   <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
@@ -51,14 +50,36 @@ I am a passionate **Machine Learning & Computer Vision Engineer** specializing i
 
 ## 📌 Featured Work & Core Projects
 
-#### 👁️ Real-Time Intelligence & Tracking Pipelines
-Custom multi-object tracking architectures and computer vision pipelines engineered for real-time video feeds, optimized for edge-compute hardware and commercial deployment environments.
+### 👁️ Multi-Object Video Tracking & Analytics (Retail & Sports AI)
+*Engineered high-performance computer vision pipelines designed for edge computing hardware and live stream inference.*
+* **Core Technology:** `YOLO`, `RT-DETR`, `CAMELTrack`, `DeepSORT`, `PyTorch`, `OpenCV`
+* **Key Implementations:** 
+  * Designed an end-to-end multi-object tracking pipeline optimized for real-time video analytics feeds in high-density environments (such as retail super shops and sports tracking).
+  * Implemented robust target ID persistence mechanisms using advanced spatial-temporal tracking logic to prevent ID-switching during dense object occlusions.
+  * Optimized inference execution to handle multi-source, real-time video streaming with low latency bounds on restricted edge hardware (e.g., NVIDIA Jetson).
 
-#### 🔠 End-to-End Handwritten OCR & Tokenization
-Development of robust custom text-segmentation architectures and dedicated tokenizers designed from the ground up for processing handwritten script variants and localized language modeling datasets.
+### ✍️ Bengali Handwritten OCR & Custom Tokenization Engine
+*Developed deep learning architectures specialized in fine-grained visual document analysis and localized language processing.*
+* **Core Technology:** `PyTorch`, `Hugging Face (Transformers)`, `Custom Tokenizers`, `FastAPI`
+* **Key Implementations:**
+  * Trained a custom **500M parameter** handwriting recognition model designed from scratch to handle nuanced Bengali scripts, complex layouts, and stroke variations.
+  * Built tailored character and word-level text segmentation rules to decouple dense handwritten text blocks into structured digital text strings.
+  * Created custom tokenization vocabularies optimized to handle morphological variations in Bengali script, significantly reducing the out-of-vocabulary (OOV) rate compared to generic tokenizers.
 
-#### 🤖 Agentic AI & Intelligent Assistants
-Stateful, persistent conversational agents engineered with advanced backend architectures, structured state-management, and human-in-the-loop validation blocks.
+### 📄 Microservices Backend for Heavy Document Processing
+*Built a scalable, consumer-ready document conversion pipeline leveraging an asymmetrical frontend/backend system architecture.*
+* **Core Technology:** `FastAPI`, `Streamlit`, `Docker`, `Python Multiprocessing`
+* **Key Implementations:**
+  * Developed a localized, asynchronous PDF-to-Image extraction engine capable of processing massive multilingual PDF documents without blocking the main event loop.
+  * Implemented an intuitive, responsive Streamlit dashboard integrated with FastAPI backend endpoints, featuring real-time conversion progress monitoring.
+  * Encapsulated the entire pipeline inside a modular Docker network to guarantee seamless deployment parity between local development and production cloud environments.
+
+### 🤖 Nexus: Strategic Sales Agent with Persistent State Management
+*Built an advanced, human-in-the-loop agentic workflow capable of maintaining strategic goal orientation.*
+* **Core Technology:** `LangChain / LangGraph`, `Pydantic (Structured Output)`, `PostgreSQL`
+* **Key Implementations:**
+  * Designed a long-term context memory system allowing the conversational agent to track sales leads and multi-turn user intent across isolated sessions.
+  * Implemented rigorous constraint checking via strict structural parsing to guarantee deterministic backend behavior.
 
 ---
 
