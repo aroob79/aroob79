@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/rendering?type=waving&color=auto&height=250&section=header&text=Hi%20there,%20I'm%20Aroob&subtitle=Machine%20Learning%20%26%20Computer%20Vision%20Engineer&fontSize=40&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/rendering?type=waving&color=0:1e3c72,100:2a5298&height=250&section=header&text=Hi%20there,%20I'm%20Aroob&subtitle=Machine%20Learning%20%26%20Computer%20Vision%20Engineer&fontSize=40&animation=fadeIn" width="100%" />
 </div>
 
 <p align="center">
-  <a href="https://github.com/aroob79"><img src="https://img.shields.io/github/followers/aroob79?label=Followers&style=social" alt="Followers"></a>
-  <a href="https://github.com/aroob79"><img src="https://img.shields.io/github/stars/aroob79?style=social" alt="Stars"></a>
+  <img src="https://img.shields.io/github/followers/aroob79?label=Followers&style=for-the-badge&color=2196f3&logo=github" alt="Followers">
+  <img src="https://img.shields.io/github/stars/aroob79?label=Total%20Stars&style=for-the-badge&color=ff9800&logo=github" alt="Stars">
 </p>
 
 ---
